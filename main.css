@@ -33,6 +33,10 @@ body {
     background-color: #fff;
 }
 
+div.topicList:hover {
+    transform: scale(1.01);
+}
+
 .topicName {
     font-style: italic;
     padding-left: 15px;
