@@ -12,6 +12,7 @@ body {
 .fixedHeader, .fixedFooter {
     width: 100%;
     position: fixed;
+    z-index: 100;
     text-align: center;
     color: #FFF;
 }
@@ -33,7 +34,7 @@ body {
     background-color: #fff;
 }
 
-div.topicList:hover {
+.topicList:hover {
     transform: scale(1.01);
 }
 
