@@ -5,6 +5,15 @@ body {
     margin-right: 0px;
 }
 
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 .background {
     background: linear-gradient(45deg, #c93d12, #17c9ae) ;
 }
@@ -21,9 +30,21 @@ body {
     top: 0;
 }
 
+.completed {
+    font-weight: bold;
+}
+
 .masterList {
     margin-right: 35px;
     margin-left: 35px;
+}
+
+.resourceList {
+    list-style-type: none;
+}
+
+.linkList {
+    list-style-type: disc;
 }
 
 .topicList {
